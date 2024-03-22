@@ -40,7 +40,7 @@ button{
 
 .boxcontainer{
     display: grid;
-    grid-template-columns: 1fr 2.3fr;
+    grid-template-columns: 1fr 1.75fr;
     margin: 20px;
 }
 
@@ -58,3 +58,56 @@ img{
     border: solid rgba(240, 248, 255, 0.815);
 }
 
+.about1{
+    border: solid black;
+    margin-top: 20px;
+    border-radius: 3px;
+    background-color: rgba(240, 248, 255, 0.342);
+    width: 100%;
+    text-align: center;
+}
+
+.about2{
+    border: solid black;
+    border-radius: 3px;
+    background-color: rgba(240, 248, 255, 0.342);
+    margin-top: 20px;
+    width: 25%;
+    text-align: center;
+}
+
+.about3{
+    border: solid black;
+    border-radius: 3px;
+    background-color: rgba(240, 248, 255, 0.342);
+    margin-top: 20px;
+    width: 25%;
+    text-align: center;
+}
+
+.title{
+    border: solid black;
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgba(240, 248, 255, 0.342);
+    border-radius: 3px;
+    text-align: center;
+}
+
+.twitch{
+    border: solid black;
+    border-radius: 3px;
+    background-color: rgba(240, 248, 255, 0.342);
+    margin-top: 20px;
+    width: 25%;
+    text-align: center;
+}
+
+.paddle{
+    border: solid black;
+    border-radius: 3px;
+    background-color: rgba(240, 248, 255, 0.342);
+    margin-top: 20px;
+    width: 25%;
+    text-align: center;
+}
