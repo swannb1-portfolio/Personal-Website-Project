@@ -29,27 +29,32 @@ button{
     border-radius: 2px;
 }
 
-img{
-    height: 200px;
-    border: solid aliceblue;
-}
-
-.index{
-    display: inline-block;
-}
-
 .learn{
-position: relative;
+    border: solid black;
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgba(240, 248, 255, 0.342);
+    border-radius: 3px;
+    text-align: center;
 }
 
-.summary{
-position: relative;
-}
-
-.brandon{
-position: relative;
+.boxcontainer{
+    display: grid;
+    grid-template-columns: 1fr 2.3fr;
+    margin: 20px;
 }
 
 .quote{
-position: relative;
+    border: solid black;
+    border-radius: 3px;
+    background-color: rgba(240, 248, 255, 0.342);
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
 }
+
+img{
+    width: 450px;
+    border: solid rgba(240, 248, 255, 0.815);
+}
+
