@@ -143,3 +143,10 @@ article form article input{
     border: none;
     border-radius: 2px; 
 }
+
+.imagecontainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-content: center;
+    height: 100%;
+}
